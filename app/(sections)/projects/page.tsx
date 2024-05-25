@@ -15,7 +15,7 @@ interface Info {
 }
  const Projectpage = () => {
   return (
-      <div className="min-h-screen bg-black py-12 pt-36 ">
+      <div className=" max-md: mt-[-300px] bg-black py-12 pt-36 ">
       <h1 className="text-7xl max:md-text-xl text-center font-sans  mb-8 font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400" >
         PROJECT 
       </h1>

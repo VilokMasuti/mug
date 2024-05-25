@@ -20,9 +20,10 @@ const Aboutpage = () => {
           <h1 className="relative z-10 text-6xl  max-md:text-3xl    bg-clip-text text-transparent bg-gradient-to-b from-neutral-100 to-neutral-800  text-center font-sans font-bold">
      V I L O K </h1>
           <p></p>
-          <p className=" max-w-lg mx-auto my-2 text-sm  relative z-9   bg-clip-text text-transparent bg-gradient-to-b from-neutral-100 to-neutral-800  text-center font-sans font-bold">
+          <p className=" max-w-lg mx-auto my-2 text-sm  relative z-9   bg-clip-text text-transparent bg-gradient-to-b from-neutral-100 to-neutral-500  text-center font-sans font-bold">
           
-          Detail-Oriented Front-End Developer | Delivering User-Centric Solutions
+          My academic background in BCA, coupled with my practical experience honed at Unitechno, has given me an exciting foundation for working in a changing technological landscape. With a deep understanding of HTML/CSS, JavaScript, React, Next.js, and Tailwind CSS, I've been able to work on various innovative projects which have helped me inculcate the intricate details needed for front-end development.
+
           </p>
           <AnimatePresence>
             {hovered && (

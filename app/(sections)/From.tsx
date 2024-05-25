@@ -103,7 +103,7 @@ const Form = () => {
         </p>
       </span>
 
-      <div className="w-[390px] max-md:w-[290px] flex flex-wrap ml-10 max-md:mt-[-640px] pt-10 max-md:ml-14">
+      <div className="w-[390px]  max-h-screen max-md:w-[290px] flex flex-wrap ml-[620px] max-md:mt-[-20px] pt-10 max-md:ml-14">
         <form ref={formRef} onSubmit={handleSubmit} className="flex flex-col gap-5">
           <label className="flex flex-col">
             <span className="font-medium text-center mb-4">Your Name</span>
@@ -146,7 +146,7 @@ const Form = () => {
           </button>
           <ToastContainer className="fixed top-0 right-0 mt-4 mr-4 transition-all duration-700 ease-in-out" />
         </form>
-        <div className="flex flex-col justify-between max-md:flex max-md:flex-row max-md:gap-[80px]">
+        <div className="flex flex-col gap-36   max-md:hidden animate-pulse duration-1000 ">
           <Link href={"https://www.linkedin.com/in/vilok-masuti-99aab8252/"}>
             <AiFillLinkedin className="" size={"30"} />
           </Link>
