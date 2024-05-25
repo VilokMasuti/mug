@@ -9,14 +9,14 @@ import "react-toastify/dist/ReactToastify.css";
 import Link from "next/link";
 
 const Form = () => {
-  const formRef = useRef();
+  const formRef = useRef<HTMLFormElement | null>(null);
   const [form, setForm] = useState({
     name: "",
     email: "",
     message: "",
   });
 
-  const handleChange = (e:any) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
     setForm({
       ...form,
@@ -24,7 +24,7 @@ const Form = () => {
     });
   };
 
-  const handleSubmit = (e:any) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     // Validation check
@@ -103,7 +103,7 @@ const Form = () => {
         </p>
       </span>
 
-      <div className="w-[390px] max-md:w-[290px] flex flex-wrap ml-[620px] max-md:mt-[-640px] pt-10 max-md:ml-14">
+      <div className="w-[390px] max-md:w-[290px] flex flex-wrap ml-10 max-md:mt-[-640px] pt-10 max-md:ml-14">
         <form ref={formRef} onSubmit={handleSubmit} className="flex flex-col gap-5">
           <label className="flex flex-col">
             <span className="font-medium text-center mb-4">Your Name</span>
