@@ -1,0 +1,32 @@
+
+{
+      "data": [
+        {
+          
+            "quote": "This platform enabled customers to visualize and customize 3D clothing models, enhancing the pre-purchase experience",
+            "link":" https://viloks.netlify.app/",
+        
+            "title": "3D-T-Shirt Customizer",
+        
+          "image": "/assets/a.png"
+        },
+          {
+            "quote": "This platform enabled is all about Nextjs14 where you can create your own Video Calls ",
+            "link": "https://zoom-umber.vercel.app/",
+            "image": "/assets/v.png",
+            "title": "Events"
+          },
+          {
+            "quote": "This platform enabled all about to create your own Generative AI app like Google Gemini or ChatGPT In React JS. Gemini clone app using Gemini API ",
+            "link": "https://gamini.netlify.app/",
+            "title": "Gemini clone",
+            "image": "/assets/g.png"
+          },
+          {
+            "quote": "This platform enabled live website for  GIPHY using React and Tailwindcss showcasing my ability to seamlessly integrate libraries  ",
+            "link": "https://giphy-teal.vercel.app/",
+            "title": "I-Phone",
+            "image": "/assets/f.png"
+          }
+        ]
+      }
