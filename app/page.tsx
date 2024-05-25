@@ -3,7 +3,7 @@
 
 import Hero from "./(sections)/Hero";
 import Aboutpage from "./(sections)/about/page";
-import { Projectpage } from "./(sections)/projects/page";
+import  Projectpage  from "./(sections)/project/page";
 
 
 
