@@ -1,10 +1,10 @@
 "use client";
 import React from "react";
-import { PinContainer } from "../../../ui/3d-pin";
+import { PinContainer } from "../../ui/3d-pin";
 import Image from "next/image";
 
 
-import data from '../../../Data/data.json'
+import data from '../../Data/data.json'
 
 
 interface Info {

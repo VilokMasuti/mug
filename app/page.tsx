@@ -3,7 +3,8 @@
 
 import Hero from "./(sections)/Hero";
 import Aboutpage from "./(sections)/about/page";
-import { Projectpage } from "./(sections)/about/projects/page";
+import { Projectpage } from "./(sections)/projects/page";
+
 
 
 export default function Home() {
