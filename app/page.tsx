@@ -1,6 +1,7 @@
 
 "use client";
 
+import Form from "./(sections)/From";
 import Hero from "./(sections)/Hero";
 import Aboutpage from "./(sections)/about/page";
 import  Projectpage  from "./(sections)/project/page";
@@ -13,6 +14,7 @@ export default function Home() {
   <Hero/>
   <Aboutpage/>
   <Projectpage/>
+  <Form/>
   </main>
   );
 }
